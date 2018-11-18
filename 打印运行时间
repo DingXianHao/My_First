@@ -1,0 +1,10 @@
+import time
+start = time.time()
+digits = range(1, 10000001)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+end = time.time()
+running_time = end - start
+print("Running time is {0}".format(running_time))
+
